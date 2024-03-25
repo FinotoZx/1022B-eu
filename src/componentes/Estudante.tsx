@@ -1,3 +1,4 @@
+import "./Estudante.css"
 
 function Estudante() {
     return (
