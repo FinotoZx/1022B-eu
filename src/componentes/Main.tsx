@@ -1,6 +1,10 @@
+import Estudante from './Estudante'
+
 function Main(){
     return(
-        <main>Main</main>
+    <main>
+        <Estudante />
+    </main>
     )
 }
 export default Main
