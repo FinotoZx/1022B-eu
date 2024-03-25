@@ -1,4 +1,5 @@
 import Estudante from './Estudante'
+import "./Main.css"
 
 function Main(){
     return(
