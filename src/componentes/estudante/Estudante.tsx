@@ -1,11 +1,15 @@
 import "./Estudante.css"
-function Estudante() {
+function Estudante(props:{nome:string,imagem:string,descricao:string,githubLink:string}) {
     return (
         <div className='box-estudante'>
-                <img src="https://github.com/FinotoZx.png" alt="Foto Estudante" />
-                <h3 className='nome-estudante'>Guilherme Finoto Viana</h3>
-                <p className='descricao-estudante'>Estudante do IFMS</p>
-                <a href="https://github.com/FinotoZx">GitHub</a>
+                <img src={props.imagem} alt="Foto Estudante" />
+                <h3 className='nome-estudante'>
+                    {props.nome}
+                </h3>
+                <p className='descricao-estudante'>
+                    {props.descricao}
+                    </p>
+                <a href={props.githubLink}>GitHub</a>
             </div>
     )
 }

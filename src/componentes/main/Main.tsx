@@ -4,7 +4,13 @@ import "./Main.css"
 function Main(){
     return(
     <main>
-        <Estudante />
+        <Estudante 
+            nome= "Guilherme Finoto"
+            imagem='https://github.com/FinotoZx.png'
+            descricao='Estudante do IFMS'
+            githubLink='https://github.com/FinotoZx'
+
+        />
     </main>
     )
 }
