@@ -1,4 +1,4 @@
-import Estudante from './Estudante'
+import Estudante from '../estudante/Estudante'
 import "./Main.css"
 
 function Main(){
